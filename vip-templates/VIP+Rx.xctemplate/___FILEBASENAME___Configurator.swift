@@ -4,7 +4,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Configurator {
 
         let router = ___FILEBASENAMEASIDENTIFIER___Router(viewController)
         let interactor = Default___FILEBASENAMEASIDENTIFIER___Interactor()
-        let presenter = Default___FILEBASENAMEASIDENTIFIER___Presenter(interactor)
+        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter(interactor)
 
         viewController.interactor = interactor
         viewController.presenter = presenter
