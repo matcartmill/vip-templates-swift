@@ -1,4 +1,4 @@
-impor
+import RxSwift
 
 struct ___FILEBASENAMEASIDENTIFIER___InteractorResponse {
     
