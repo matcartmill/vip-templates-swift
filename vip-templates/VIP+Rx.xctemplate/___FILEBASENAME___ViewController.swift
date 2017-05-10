@@ -7,6 +7,8 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor?
     var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter?
     var router: ___FILEBASENAMEASIDENTIFIER___Router?
+    
+    fileprivate let disposeBag = DisposeBag()
 
     // MARK: - Configurator
 
