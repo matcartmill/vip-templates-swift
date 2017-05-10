@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
 	<key>Description</key>
-	<string>This generates a new scene using a customized version of Clean Swift VIP templates. It consists of the view controller, interactor, presenter, router, and view model.</string>
+	<string>This generates a new scene using a customized version of Clean Swift VIP templates with integration for Rx. It consists of the view controller, interactor, presenter, router, and view model.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -124,6 +124,6 @@
 	<key>SortOrder</key>
 	<string>9</string>
 	<key>Summary</key>
-	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture and Rx.</string>
 </dict>
 </plist>

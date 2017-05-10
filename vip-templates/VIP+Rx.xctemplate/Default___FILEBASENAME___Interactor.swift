@@ -1,3 +1,5 @@
+import RxSwift
+
 class Default___FILEBASENAMEASIDENTIFIER___Interactor {
 
     weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?

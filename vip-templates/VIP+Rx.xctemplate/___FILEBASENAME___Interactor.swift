@@ -1,3 +1,5 @@
+impor
+
 struct ___FILEBASENAMEASIDENTIFIER___InteractorResponse {
     
 }
