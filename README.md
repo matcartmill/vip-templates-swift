@@ -1,3 +1,5 @@
+![VIP+Rx](https://raw.githubusercontent.com/matcartmill/vip-templates-swift/master/Vip+Rx.png)
+
 # VIP Xcode Templates
 
 Xcode templates based on [Clean Swift](https://clean-swift.com) for generating Swift source code in View Interactor Presenter architecture.
