@@ -1,4 +1,3 @@
-import RxCocoa
 import RxSwift
 
 final class ___FILEBASENAMEIDENTIFIER___Presenter {
