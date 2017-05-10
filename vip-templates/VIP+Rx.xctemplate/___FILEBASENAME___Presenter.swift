@@ -7,7 +7,7 @@ final class ___FILEBASENAMEIDENTIFIER___Presenter {
     var viewModel: Driver<___FILEBASENAMEIDENTIFIER___ViewModel> {
         return interactor.model
             .map({ (model) in return translate(model) })
-            .asDriver(onErrorJustReturn: ___FILEBASENAMEIDENTIFIER___ViewModel)
+            .asDriver(onErrorJustReturn: ___FILEBASENAMEIDENTIFIER___ViewModel())
     }
 
     init(_ interactor: ___FILEBASENAMEIDENTIFIER___InteractorOutput) {
