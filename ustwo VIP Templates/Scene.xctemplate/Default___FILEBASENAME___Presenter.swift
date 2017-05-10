@@ -7,6 +7,10 @@ class Default___FILEBASENAMEASIDENTIFIER___Presenter {
     }
 }
 
+extension Default___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Presenter {
+    
+}
+
 extension Default___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
 
 }
