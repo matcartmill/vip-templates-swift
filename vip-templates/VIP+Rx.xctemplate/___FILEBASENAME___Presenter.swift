@@ -1,9 +1,9 @@
 import RxSwift
 
 final class ___FILEBASENAMEIDENTIFIER___Presenter {
-    unowned var interactor: ___FILEBASENAMEIDENTIFIER___Interactor
+    unowned var input: ___FILEBASENAMEIDENTIFIER___InteractorOutput
     
-    init(_ interactor: ___FILEBASENAMEIDENTIFIER___Interactor) {
-        self.interactor = interactor
+    init(_ input: ___FILEBASENAMEIDENTIFIER___InteractorOutput) {
+        self.input = input
     }
 }

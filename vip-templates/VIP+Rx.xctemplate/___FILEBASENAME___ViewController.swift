@@ -4,7 +4,7 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
-    var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor?
+    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput?
     var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter?
     var router: ___FILEBASENAMEASIDENTIFIER___Router?
     
