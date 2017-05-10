@@ -16,6 +16,11 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
         configurator.configure(self)
     }
 
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        configure()
+    }
+
     // MARK: - View lifecycle
 
     override func viewDidLoad() {
