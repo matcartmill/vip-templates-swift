@@ -4,9 +4,9 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput?
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter?
-    var router: ___FILEBASENAMEASIDENTIFIER___Router?
+    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput!
+    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
+    var router: ___FILEBASENAMEASIDENTIFIER___Router!
 
     fileprivate let disposeBag = DisposeBag()
 
@@ -27,11 +27,11 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
         super.viewDidLoad()
 
         // Todo: Replace...
-        presenter?.viewModel.drive(onNext: { [unowned self] (viewModel) in
+        presenter.viewModel.drive(onNext: { [unowned self] (viewModel) in
             // Do something the the viewModel
         }).disposed(by: disposeBag)
 
         // Sample of triggering the interactor
-        interactor?.fetchModel()
+        interactor.fetchModel()
     }
 }
