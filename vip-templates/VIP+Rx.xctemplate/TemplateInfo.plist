@@ -62,6 +62,20 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___InteractorBoundary</string>
+			<key>Description</key>
+			<string>The interactor boundary name</string>
+			<key>Identifier</key>
+			<string>interactorBoundaryName</string>
+			<key>Name</key>
+			<string>Interactor Boundary Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Presenter</string>
 			<key>Description</key>
 			<string>The presenter name</string>
