@@ -6,7 +6,7 @@ Xcode templates based on [Clean Swift](https://clean-swift.com) for generating S
 
 ### Manual
 
-Copy the `ustwo VIP Templates` folder to `~/Library/Developer/Xcode/Templates/File Templates`.
+Copy the `vip-templates` folder to `~/Library/Developer/Xcode/Templates/File Templates`.
 
 ## Usage
 
