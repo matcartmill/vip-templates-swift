@@ -17,7 +17,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Presenter {
 
 extension ___FILEBASENAMEASIDENTIFIER___Presenter {
 
-    func translate(_ model: ___FILEBASENAMEASIDENTIFIER___InteractorResponse) -> ___FILEBASENAMEASIDENTIFIER___ViewModel {
+    fileprivate func translate(_ model: ___FILEBASENAMEASIDENTIFIER___InteractorResponse) -> ___FILEBASENAMEASIDENTIFIER___ViewModel {
         return ___FILEBASENAMEASIDENTIFIER___ViewModel()
     }
 }
