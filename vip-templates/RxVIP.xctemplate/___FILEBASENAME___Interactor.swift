@@ -1,6 +1,6 @@
 import RxSwift
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor {
+final class ___FILEBASENAMEASIDENTIFIER___Interactor {
 
     // Todo: Replace...
     fileprivate let modelSubject = PublishSubject<___FILEBASENAMEASIDENTIFIER___InteractorResponse>()
