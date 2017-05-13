@@ -15,6 +15,6 @@ extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER_
 
 extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
     var model: Observable<___FILEBASENAMEASIDENTIFIER___InteractorResponse> {
-        return modelSubject as Observable<___FILEBASENAMEASIDENTIFIER___InteractorResponse>
+        return modelSubject.asObservable()
     }
 }
