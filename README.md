@@ -6,6 +6,13 @@ Xcode templates based on [Clean Swift](https://clean-swift.com) for generating S
 
 ## Setup
 
+### Script
+
+A basic install script has been included for convenience. Once you have clone the repo locally to your system, simply run `./install` from the root project directory (`vip-templates-swift`).
+The install script will `symlink` the templates folder to Xcode's `File Templates` folder, which eliminates the need for re-copying the template to the Xcode `File Templates` folder manually when updated.
+
+To update your templates, simply return to the `vip-templates-swift` project directory and `git pull` to fetch the latest versions. Your Xcode implementation will be updated automatically.
+
 ### Manual
 
 Copy the `vip-templates` folder to `~/Library/Developer/Xcode/Templates/File Templates`.
