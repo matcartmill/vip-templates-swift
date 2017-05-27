@@ -2,7 +2,7 @@ import RxCocoa
 import RxSwift
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
     var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput!
     var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
