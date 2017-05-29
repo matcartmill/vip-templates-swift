@@ -7,7 +7,7 @@ struct ___FILEBASENAMEASIDENTIFIER___InteractorResponse {
 protocol ___FILEBASENAMEASIDENTIFIER___InteractorInput: class {
 
     // Todo: Replace with methods called from the ViewController
-    func fetchModel()
+    func invokeSomeUseCase()
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput: class {
