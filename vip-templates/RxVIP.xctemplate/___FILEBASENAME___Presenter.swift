@@ -2,19 +2,21 @@ import RxCocoa
 import RxSwift
 
 final class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    unowned var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
+    private unowned var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
 
     var viewModel: Driver<___FILEBASENAMEASIDENTIFIER___ViewModel> {
         return interactor.model
-            .map({ [unowned self] (model) in return self.translate(model) })
+            .map(___FILEBASENAMEASIDENTIFIER___ViewModel.init)
             .asDriver(onErrorJustReturn: ___FILEBASENAMEASIDENTIFIER___ViewModel())
     }
 
     init(_ interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput) {
         self.interactor = interactor
     }
+}
 
-    private func translate(_ model: ___FILEBASENAMEASIDENTIFIER___InteractorResponse) -> ___FILEBASENAMEASIDENTIFIER___ViewModel {
-        return ___FILEBASENAMEASIDENTIFIER___ViewModel()
+private extension ___FILEBASENAMEASIDENTIFIER___ViewModel {
+    init(response: ___FILEBASENAMEASIDENTIFIER___InteractorResponse) {
+        
     }
 }
