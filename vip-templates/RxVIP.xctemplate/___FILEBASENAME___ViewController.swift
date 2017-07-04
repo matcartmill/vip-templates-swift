@@ -2,7 +2,7 @@ import RxCocoa
 import RxSwift
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
     var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput!
     var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
@@ -30,8 +30,10 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
         presenter.viewModel.drive(onNext: { [unowned self] (viewModel) in
             // Do something the the viewModel
         }).disposed(by: disposeBag)
-
+    }
+    
+    @IBAction func trigger() {
         // Sample of triggering the interactor
-        interactor.fetchModel()
+        interactor.invokeSomeUseCase()
     }
 }

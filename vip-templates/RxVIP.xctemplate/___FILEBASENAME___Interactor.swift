@@ -8,13 +8,14 @@ final class ___FILEBASENAMEASIDENTIFIER___Interactor {
 
 extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
     
-    func fetchModel() {
-        modelSubject.onNext(___FILEBASENAMEASIDENTIFIER___InteractorResponse())
+    func invokeSomeUseCase() {
     }
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
     var model: Observable<___FILEBASENAMEASIDENTIFIER___InteractorResponse> {
-        return modelSubject.asObservable()
+        return modelSubject
+            .asObservable()
+            .startWith(___FILEBASENAMEASIDENTIFIER___InteractorResponse())
     }
 }
