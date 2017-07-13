@@ -62,20 +62,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___InteractorBoundary</string>
-			<key>Description</key>
-			<string>The interactor boundary name</string>
-			<key>Identifier</key>
-			<string>interactorBoundaryName</string>
-			<key>Name</key>
-			<string>Interactor Boundary Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Presenter</string>
 			<key>Description</key>
 			<string>The presenter name</string>
@@ -118,13 +104,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
+			<string>___VARIABLE_sceneName:identifier___Models</string>
 			<key>Description</key>
-			<string>The view model file name</string>
+			<string>The scene&apos;s model file name</string>
 			<key>Identifier</key>
-			<string>viewModelFileName</string>
+			<string>modelsFileName</string>
 			<key>Name</key>
-			<string>View Model File Name:</string>
+			<string>Model File Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -138,6 +124,6 @@
 	<key>SortOrder</key>
 	<string>9</string>
 	<key>Summary</key>
-	<string>This generates a new scene using Uncle Bob&apos;s clean architecture and Rx.</string>
+	<string>This generates a new scene using VIP clean swift architecture and Rx.</string>
 </dict>
 </plist>

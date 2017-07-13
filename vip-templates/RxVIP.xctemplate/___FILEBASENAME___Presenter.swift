@@ -1,13 +1,13 @@
 import RxCocoa
 import RxSwift
 
-final class ___FILEBASENAMEASIDENTIFIER___Presenter {
+class ___FILEBASENAMEASIDENTIFIER___Presenter {
     private unowned var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
 
-    var viewModel: Driver<___FILEBASENAMEASIDENTIFIER___ViewModel> {
+    var viewModel: Driver<___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.ViewModel> {
         return interactor.model
-            .map(___FILEBASENAMEASIDENTIFIER___ViewModel.init)
-            .asDriver(onErrorJustReturn: ___FILEBASENAMEASIDENTIFIER___ViewModel())
+            .map(___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.ViewModel.init)
+            .asDriver(onErrorDriveWith: Driver<___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.ViewModel>.empty())
     }
 
     init(_ interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput) {
@@ -15,8 +15,8 @@ final class ___FILEBASENAMEASIDENTIFIER___Presenter {
     }
 }
 
-private extension ___FILEBASENAMEASIDENTIFIER___ViewModel {
-    init(response: ___FILEBASENAMEASIDENTIFIER___InteractorResponse) {
+private extension ___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.ViewModel {
+    init(response: ___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.Response) {
         
     }
 }

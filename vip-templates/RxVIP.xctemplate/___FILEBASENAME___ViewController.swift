@@ -34,6 +34,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
     @IBAction func trigger() {
         // Sample of triggering the interactor
-        interactor.invokeSomeUseCase()
+        let request = ___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.Request()
+        interactor.invokeSomeUseCase(request: request)
     }
 }
