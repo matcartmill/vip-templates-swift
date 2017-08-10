@@ -1,6 +1,6 @@
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Router {
+class ___FILEBASENAMEASIDENTIFIER___Router {
     unowned var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController
     
     init(_ viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
