@@ -2,7 +2,7 @@ import RxCocoa
 import RxSwift
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    private unowned var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
+    unowned var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
 
     var viewModel: Driver<___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.ViewModel> {
         return interactor.model
