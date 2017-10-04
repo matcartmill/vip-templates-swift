@@ -4,17 +4,17 @@ import RxSwift
 @testable import <#module#>
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase {
-    var interactor: Dummy___FILEBASENAMEASIDENTIFIER___Interactor!
+class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
+    var interactor: Dummy___VARIABLE_sceneName___Interactor!
 
     override func setUp() {
         super.setUp()
-        interactor = Dummy___FILEBASENAMEASIDENTIFIER___Interactor()
+        interactor = Dummy___VARIABLE_sceneName___Interactor()
     }
     
     func testViewModel() {
         // Given
-        let sut = ___FILEBASENAMEASIDENTIFIER___Presenter(interactor)
+        let sut = ___VARIABLE_sceneName___Presenter(interactor)
         
         // When
         let viewModel = try? sut.viewModel.toBlocking().first()!
@@ -23,10 +23,10 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase {
         XCTAssertNotNil(viewModel)
     }
 
-    class Dummy___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+    class Dummy___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorOutput {
         
-        var model: Observable<___FILEBASENAMEASIDENTIFIER___InteractorResponse> {
-            return Observable.just(___FILEBASENAMEASIDENTIFIER___InteractorResponse())
+        var model: Observable<___VARIABLE_sceneName___InteractorResponse> {
+            return Observable.just(___VARIABLE_sceneName___InteractorResponse())
         }
     }
 }

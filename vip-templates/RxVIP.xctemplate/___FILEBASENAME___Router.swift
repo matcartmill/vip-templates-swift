@@ -1,9 +1,9 @@
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Router {
-    unowned var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController
+class ___VARIABLE_sceneName___Router {
+    unowned var viewController: ___VARIABLE_sceneName___ViewController
     
-    init(_ viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
+    init(_ viewController: ___VARIABLE_sceneName___ViewController) {
         self.viewController = viewController
     }
 

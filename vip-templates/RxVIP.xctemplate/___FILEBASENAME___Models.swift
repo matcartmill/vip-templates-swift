@@ -1,8 +1,8 @@
 import UIKit
 
-struct ___FILEBASENAMEASIDENTIFIER___ {
+enum ___VARIABLE_sceneName___ {
 
-    struct <#UseCase#> {
+    enum <#UseCase#> {
         struct Request {
         }
         

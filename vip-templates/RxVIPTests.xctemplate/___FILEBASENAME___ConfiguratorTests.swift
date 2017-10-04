@@ -1,7 +1,7 @@
 @testable import <#module#>
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___ConfiguratorTests: XCTestCase {
+class ___VARIABLE_sceneName___ConfiguratorTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
@@ -15,8 +15,8 @@ class ___FILEBASENAMEASIDENTIFIER___ConfiguratorTests: XCTestCase {
 
     func testConfigureModuleForViewController() {
         // Given
-        let viewController = Fake___FILEBASENAMEASIDENTIFIER___ViewController()
-        let configurator = ___FILEBASENAMEASIDENTIFIER___Configurator()
+        let viewController = Fake___VARIABLE_sceneName___ViewController()
+        let configurator = ___VARIABLE_sceneName___Configurator()
 
         // When
         configurator.configure(viewController)
@@ -27,12 +27,12 @@ class ___FILEBASENAMEASIDENTIFIER___ConfiguratorTests: XCTestCase {
         XCTAssertNotNil(viewController.router)
 
         let presenter = viewController.presenter
-        XCTAssertNotNil(presenter?.interactor, "interactor in ___FILEBASENAMEASIDENTIFIER___Presenter is nil after configuration")
+        XCTAssertNotNil(presenter?.interactor, "interactor in ___VARIABLE_sceneName___Presenter is nil after configuration")
 
         let router = viewController.router
-        XCTAssertNotNil(router?.viewController, "router in ___FILEBASENAMEASIDENTIFIER___ViewController is nil after configuration")
+        XCTAssertNotNil(router?.viewController, "router in ___VARIABLE_sceneName___ViewController is nil after configuration")
     }
 
-    class Fake___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewController {
+    class Fake___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___ViewController {
     }
 }
