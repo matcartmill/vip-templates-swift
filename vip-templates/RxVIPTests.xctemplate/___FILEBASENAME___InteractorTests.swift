@@ -4,7 +4,7 @@ import RxSwift
 @testable import <#module#>
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___InteractorTests: XCTestCase {
+class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
 
     override func setUp() {
         super.setUp()

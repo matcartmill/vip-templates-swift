@@ -2,17 +2,17 @@ import RxCocoa
 import RxSwift
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+class ___VARIABLE_sceneName___ViewController: UIViewController {
 
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput!
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
-    var router: ___FILEBASENAMEASIDENTIFIER___Router!
+    var interactor: ___VARIABLE_sceneName___InteractorInput!
+    var presenter: ___VARIABLE_sceneName___Presenter!
+    var router: ___VARIABLE_sceneName___Router!
 
     private let disposeBag = DisposeBag()
 
     // MARK: - Configurator
 
-    private func configure(configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = ___FILEBASENAMEASIDENTIFIER___Configurator()) {
+    private func configure(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator()) {
         configurator.configure(self)
     }
 
@@ -34,7 +34,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
     @IBAction func trigger() {
         // Sample of triggering the interactor
-        let request = ___FILEBASENAMEASIDENTIFIER___.<#Usecase#>.Request()
+        let request = ___VARIABLE_sceneName___.<#Usecase#>.Request()
         interactor.invokeSomeUseCase(request: request)
     }
 }

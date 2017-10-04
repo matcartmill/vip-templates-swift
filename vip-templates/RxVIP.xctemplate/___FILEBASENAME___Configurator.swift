@@ -1,10 +1,10 @@
-struct ___FILEBASENAMEASIDENTIFIER___Configurator {
+struct ___VARIABLE_sceneName___Configurator {
 
-    func configure(_ viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
+    func configure(_ viewController: ___VARIABLE_sceneName___ViewController) {
 
-        let router = ___FILEBASENAMEASIDENTIFIER___Router(viewController)
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter(interactor)
+        let router = ___VARIABLE_sceneName___Router(viewController)
+        let interactor = ___VARIABLE_sceneName___Interactor()
+        let presenter = ___VARIABLE_sceneName___Presenter(interactor)
 
         viewController.interactor = interactor
         viewController.presenter = presenter
