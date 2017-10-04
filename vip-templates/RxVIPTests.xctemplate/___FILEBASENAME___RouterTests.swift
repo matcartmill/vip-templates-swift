@@ -2,8 +2,8 @@ import UIKit
 @testable import <#module#>
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___RouterTests: XCTestCase {
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?
+class ___VARIABLE_sceneName___RouterTests: XCTestCase {
+    weak var viewController: ___VARIABLE_sceneName___ViewController?
     
     override func setUp() {
         super.setUp()
@@ -17,8 +17,8 @@ class ___FILEBASENAMEASIDENTIFIER___RouterTests: XCTestCase {
     
     func testNominalCase() {
         // Given
-        let spy = Spy___FILEBASENAMEASIDENTIFIER___ViewController()
-        let sut = ___FILEBASENAMEASIDENTIFIER___Router(spy)
+        let spy = Spy___VARIABLE_sceneName___ViewController()
+        let sut = ___VARIABLE_sceneName___Router(spy)
         
         // When
         
@@ -27,7 +27,7 @@ class ___FILEBASENAMEASIDENTIFIER___RouterTests: XCTestCase {
         XCTAssertEqual(0, spy.presentAnimatedCalled, "present was called but shouldn't have been")
     }
 
-    class Spy___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewController {
+    class Spy___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___ViewController {
         var presentAnimatedCalled: Int = 0
 
         override func present(_ viewControllerToPresent: UIViewController, animated: Bool, completion: (() -> Void)? = nil) {
